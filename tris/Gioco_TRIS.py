@@ -1,3 +1,4 @@
+# primo programmino in python
 # %%
 # funzione stampa tabella
 def sta_tab(tab):
