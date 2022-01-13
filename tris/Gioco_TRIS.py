@@ -1,5 +1,5 @@
-# primo programmino in python
-# %%
+
+
 # funzione stampa tabella
 def sta_tab(tab):
     print(f"""
@@ -13,8 +13,6 @@ def sta_tab(tab):
      1   2   3
     """)
 
-
-# %%
 # funzione input giocata
 def giocata(ab):
     
@@ -29,7 +27,7 @@ def giocata(ab):
                 return rn-1,cn-1
         print('Riprova! ')    
 
-# %%
+
 #funzione controllo giocata
 def crl_gio(r,c,tab):
     if tab[r][c]==" ":
@@ -39,7 +37,7 @@ def crl_gio(r,c,tab):
         return False
         
 
-# %%
+
 # funzione se vincitore
 def vincitore(ab,t):
     g=[ab]*3
@@ -56,7 +54,7 @@ def vincitore(ab,t):
     elif g==[t[2][0],t[1][1],t[0][2]]:
         return True                    
 
-# %%
+# main
 tab=[[' ']*3,[' ']*3,[' ']*3]
 play=True
 pieno=0
